@@ -30,8 +30,8 @@ class SelectForm extends Component {
               </div>
               <div
                 className="select-box--arrow"
-                onClick={this.dropDown}
-              ><span className={`${this.state.showItems ? 'select-box--arrow-up' : 'select-box--arrow-down'}`}/></div>
+                onClick={this.dropDown}>
+                <span className={`${this.state.showItems ? 'select-box--arrow-up' : 'select-box--arrow-down'}`}/></div>
             </div>
             <div
               className="select-box--items"
@@ -41,8 +41,7 @@ class SelectForm extends Component {
                 this.state.items.map(item => <div
                   key={item.id}
                   onClick={() => this.selectItem(item)}
-                  className={this.state.selectedItem === item ? 'selected' : ''}
-                >
+                  className={this.state.selectedItem === item ? 'selected' : ''}>
                   { item.value }
                 </div>)
               }

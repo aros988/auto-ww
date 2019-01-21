@@ -8,11 +8,12 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: #1999;
+  
 }
   
   .select-box--container {
     height: 30px;
-    border: 1px solid #aaa;
+    border: 1px solid rgb(207, 33, 33);
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -30,7 +31,7 @@ body {
     margin: 0px;
     padding: 0px;
     display: inline-block;
-    background: #aaa;
+    background: rgb(207, 33, 33);
     position: absolute;
     right: 0;
     top: 0;
@@ -47,11 +48,12 @@ body {
 
   
   .select-box--items div {
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-bottom: 1px solid rgb(207, 33, 33);
+    border-left: 1px solid rgb(207, 33, 33);
+    border-right: 1px solid rgb(207, 33, 33);
     padding: 6px;
     padding-left: 20px;
+    background-color: #fff
   }
   
   
@@ -82,3 +84,14 @@ body {
     
     border-bottom: 10px solid #fff;
   }
+
+
+  /* InputForm Styles */ 
+
+.First-LastName {
+  padding-top: 50px;
+}
+
+.First-LastName input {
+  display: block;
+}

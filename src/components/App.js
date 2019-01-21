@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SelectForm from './SelectForm';
+import InputForm from './InputForm';
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
                 { value: 'Renault Megane', id: 4 },
               ]}
             />
+            <InputForm />
           </div>
         </div>
       }
