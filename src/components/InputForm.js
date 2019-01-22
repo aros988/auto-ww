@@ -23,6 +23,7 @@ class InputForm extends Component {
         <form>
             
             <input 
+                id="firstname"
                 type="text"
                 name="firstName"
                 value= {this.state.FirstName}
@@ -30,7 +31,8 @@ class InputForm extends Component {
                 placeholder= "First Name"
             />
             
-            <input 
+            <input
+                id="lastname" 
                 type="text"
                 name="lastName"
                 value= {this.state.LastName}
@@ -40,19 +42,20 @@ class InputForm extends Component {
 
             <label>Pick up Date:</label>
             <input
+            id="pickdate"
             type="text"
-            name="birthdate"
-            type="text"
+            name="pickdate"
             placeholder="MM/DD//YYYY"
             />
 
             <label>Give back Date:</label>
             <input
+            id="givedate"
             type="text"
-            name="birthdate"
-            type="text"
+            name="givedate"
             placeholder="MM/DD//YYYY"
             />
+            <button>Send reservation!</button>
         </form>
             <h1>{this.state.FirstName}</h1>
             <h1>{this.state.LastName}</h1>
