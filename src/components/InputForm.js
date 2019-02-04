@@ -11,6 +11,11 @@ class InputForm extends Component {
         lastName: "" 
     }
 
+    handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(this.state);
+      };
+
     handleChange = (event) => {
         const { name, value } = event.target
         this.setState({
@@ -20,13 +25,13 @@ class InputForm extends Component {
 
     render() {
         return <div className ='First-LastName'>
-        <form>
+        <form onSubmit={this.handleSubmit}>
             
             <input 
                 id="firstname"
                 type="text"
                 name="firstName"
-                value= {this.state.FirstName}
+                value= {this.state.firstName}
                 onChange= {this.handleChange}
                 placeholder= "First Name"
             />
@@ -35,7 +40,7 @@ class InputForm extends Component {
                 id="lastname" 
                 type="text"
                 name="lastName"
-                value= {this.state.LastName}
+                value= {this.state.lastName}
                 onChange= {this.handleChange}
                 placeholder= "Last Name"
             />
@@ -45,6 +50,7 @@ class InputForm extends Component {
             id="pickdate"
             type="text"
             name="pickdate"
+            onChange= {this.handleChange}
             placeholder="MM/DD//YYYY"
             />
 
@@ -53,9 +59,10 @@ class InputForm extends Component {
             id="givedate"
             type="text"
             name="givedate"
+            onChange= {this.handleChange}
             placeholder="MM/DD//YYYY"
             />
-            <button>Send reservation!</button>
+            <button type="submit">Send reservation!</button>
         </form>
             <h1>{this.state.FirstName}</h1>
             <h1>{this.state.LastName}</h1>
