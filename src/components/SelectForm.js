@@ -50,7 +50,8 @@ class SelectForm extends Component {
           <input 
           type="hidden" 
           name={this.state.name} 
-          value={this.state.selectedItem.id} 
+          value={this.state.selectedItem.id}
+           
           />
         </div>
       }

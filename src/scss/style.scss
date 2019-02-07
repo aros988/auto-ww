@@ -95,3 +95,35 @@ body {
 .First-LastName input {
   display: block;
 }
+
+.cars-gallery {
+  display: flex;
+  max-width: 1000px;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+}
+
+.cars {
+  margin: 10px 0;
+  
+}
+
+.card-body {
+  background: #fff;
+  margin: 10px 0;
+  width: 20vw;
+  height: 35vh;
+  text-align: center;
+}
+
+.card-body ul {
+  list-style-type: none;
+  text-align: left;
+  font-weight: bold;
+}
