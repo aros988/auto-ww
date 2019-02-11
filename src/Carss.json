@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Mustang GT",
+        "type": "Sport",
+        "HP": "183",
+        "Color": "Red",
+        "Fuel type": "PB95 or 98",
+        "Fuel consumption - urban mode": "12l/100km",
+        "Fuel consumption 90km/h": "10l/100km",
+        "Automatic air conditioning": "include"
+    },
+    {
+        "id": 2,
+        "title": "BMW X3",
+        "type": "Sport",
+        "HP": "183",
+        "Color": "Red",
+        "Fuel type": "PB95 or 98",
+        "Fuel consumption - urban mode": "12l/100km",
+        "Fuel consumption 90km/h": "10l/100km",
+        "Automatic air conditioning": "include"
+    },
+    {
+        "id": 3,
+        "title": "Mercedes CLS",
+        "type": "Sport",
+        "HP": "183",
+        "Color": "Red",
+        "Fuel type": "PB95 or 98",
+        "Fuel consumption - urban mode": "12l/100km",
+        "Fuel consumption 90km/h": "10l/100km",
+        "Automatic air conditioning": "include"
+    },
+    {
+        "id": 4,
+        "title": "Audi ARS6",
+        "type": "Sport",
+        "HP": "183",
+        "Color": "Red",
+        "Fuel type": "PB95 or 98",
+        "Fuel consumption - urban mode": "12l/100km",
+        "Fuel consumption 90km/h": "10l/100km",
+        "Automatic air conditioning": "include"
+    }
+]

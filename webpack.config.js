@@ -1,5 +1,7 @@
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
   entry: './src/index.js',
@@ -26,7 +28,8 @@ module.exports = {
                 "css-loader", // translates CSS into CommonJS
                 "sass-loader" // compiles Sass to CSS, using Node Sass by default
                 ]
-            }
+            },
+            { test: /\.json$/, include: helpers.root('public', 'data'), loader: 'raw' },
         ]
     
     },

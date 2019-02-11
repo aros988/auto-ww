@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Cars extends Component {
     render() {
         return <div className="cars-gallery">
@@ -14,7 +15,7 @@ class Cars extends Component {
             <div className="card-body">
                 <h2>Mustang GT</h2>
                     <ul>
-                        <li>Type: Sport</li>
+                        <li>Type: <span>Sport</span></li>
                         <li>HP: 183</li>
                         <li>Color: Red</li>
                         <li>Fuel type: PB95 or 98</li>
