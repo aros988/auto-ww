@@ -29,7 +29,7 @@ module.exports = {
                 "sass-loader" // compiles Sass to CSS, using Node Sass by default
                 ]
             },
-            { test: /\.json$/, include: helpers.root('public', 'data'), loader: 'raw' },
+            { test: /\.json$/, },
         ]
     
     },

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+import carssJson from "./carss.json";
 class Cars extends Component {
     render() {
         return <div className="cars-gallery">
@@ -88,3 +88,12 @@ class Cars extends Component {
     };
 
 export default Cars;
+
+{/* 
+itemsCar: carsJson.cars.map(car => (
+ 
+ <li>
+      car:<b> {car.id}</b>, car title: <b>{car.title}</b>, car color: <b>{car.Color}</b>
+    </li>
+
+*/}
