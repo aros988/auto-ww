@@ -1,7 +1,24 @@
 import React, { Component } from 'react';
 
-import carssJson from "./carss.json";
+import carsJson from "./Carss.json";
 class Cars extends Component {
+
+    state = {
+        itemsCar: carsJson.cars.map(car => (
+        <ul>
+        <li>Type:{car.type}</li>
+        <li>HP:{car.hp}</li>
+        <li>Color:{car.color}</li>
+        <li>Fuel type:{car.fuel_type}</li>
+        <li>Fuel consumption-urban mode:{car.fuel1}</li>
+        <li>Fuel consumption 90km/h:{car.fuel2}</li>
+        <li> Automatic air conditioning:{car.automatic_air_conditioning}</li> 
+        </ul>
+        )),
+        itemCar: carsJson.cars.find(el => el.id === 2)
+    };
+
+
     render() {
         return <div className="cars-gallery">
 
@@ -15,7 +32,7 @@ class Cars extends Component {
             <div className="card-body">
                 <h2>Mustang GT</h2>
                     <ul>
-                        <li>Type: <span>Sport</span></li>
+                        <li>Type:Sport</li>
                         <li>HP: 183</li>
                         <li>Color: Red</li>
                         <li>Fuel type: PB95 or 98</li>
@@ -33,16 +50,9 @@ class Cars extends Component {
             />
 
             <div className="card-body">
-                <h2>BMW X3</h2>
-                    <ul>
-                        <li>Type: Sport</li>
-                        <li>HP: 183</li>
-                        <li>Color: Red</li>
-                        <li>Fuel type: PB95 or 98</li>
-                        <li>Fuel consumption - urban mode: 12l/100km</li>
-                        <li>Fuel consumption 90km/h: 10l/100km</li>
-                        <li>Automatic air conditioning: include</li>
-                    </ul>
+                <h2>{this.state.itemCar.title}</h2>
+                {this.state.itemsCar}
+                    
             </div>
 
             <img 

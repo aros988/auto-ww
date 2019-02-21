@@ -48,7 +48,7 @@ class InputForm extends Component {
             <label>Pick up Date:</label>
             <input
             id="pickdate"
-            type="text"
+            type="date"
             name="pickdate"
             onChange= {this.handleChange}
             placeholder="MM/DD//YYYY"
@@ -57,7 +57,7 @@ class InputForm extends Component {
             <label>Give back Date:</label>
             <input
             id="givedate"
-            type="text"
+            type="date"
             name="givedate"
             onChange= {this.handleChange}
             placeholder="MM/DD//YYYY"
