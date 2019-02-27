@@ -8,12 +8,13 @@ class Cars extends Component {
     return <div className="cars-gallery">
       {cars.map(car => (
         <div key={car.id}>
+          <div className="cars-gallery">
           <img
-            src="https://cdn.pixabay.com/photo/2017/05/23/20/09/mustang-2338394__340.jpg"
+            src={car.image}
             alt="mustangGT"
             className="cars"
           />
-
+        <div className="card-body">
           <ul>
             <li>Type:{car.type}</li>
             <li>HP:{car.hp}</li>
@@ -23,6 +24,8 @@ class Cars extends Component {
             <li>Fuel consumption 90km/h:{car.fuel2}</li>
             <li> Automatic air conditioning:{car.automatic_air_conditioning}</li>
           </ul>
+        </div>
+          </div>
         </div>
       ))}
     </div>
