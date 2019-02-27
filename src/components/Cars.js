@@ -5,14 +5,13 @@ class Cars extends Component {
 
     const cars = this.props.selectedCar ? this.props.items.filter((car) => car.id === this.props.selectedCar) : this.props.items;
     
-
     return <div className="cars-gallery">
       {cars.map(car => (
         <div key={car.id}>
           <div className="cars-gallery">
           <img
             src={car.image}
-            alt="mustangGT"
+            alt="cars"
             className="cars"
           />
         <div className="card-body">

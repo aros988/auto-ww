@@ -19,7 +19,7 @@ class App extends Component {
         />
         <div style={{ left: '190px', position: 'relative' }}>
         <SelectForm
-          name="rent[auto_id]"
+          name="rent[auto_color]"
           onChange={(item) => this.setState({ selectedCar: item.id })}
           items={cars.map(car => ({ value: car.color, id: car.id }))}
         />
@@ -27,7 +27,7 @@ class App extends Component {
 
         <div style={{ left: '380px', position: 'relative' }}>
         <SelectForm
-          name="rent[auto_id]"
+          name="rent[auto_hp]"
           onChange={(item) => this.setState({ selectedCar: item.id })}
           items={cars.map(car => ({ value: car.hp, id: car.id }))}
         />
