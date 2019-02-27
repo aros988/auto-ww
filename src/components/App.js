@@ -17,6 +17,21 @@ class App extends Component {
           onChange={(item) => this.setState({ selectedCar: item.id })}
           items={cars.map(car => ({ value: car.title, id: car.id }))}
         />
+        <div style={{ left: '190px', position: 'relative' }}>
+        <SelectForm
+          name="rent[auto_id]"
+          onChange={(item) => this.setState({ selectedCar: item.id })}
+          items={cars.map(car => ({ value: car.color, id: car.id }))}
+        />
+        </div>
+
+        <div style={{ left: '380px', position: 'relative' }}>
+        <SelectForm
+          name="rent[auto_id]"
+          onChange={(item) => this.setState({ selectedCar: item.id })}
+          items={cars.map(car => ({ value: car.hp, id: car.id }))}
+        />
+        </div>
         <InputForm />
         <Cars items={cars} selectedCar={this.state.selectedCar} />
       </div>

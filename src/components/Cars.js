@@ -4,6 +4,7 @@ class Cars extends Component {
   render() {
 
     const cars = this.props.selectedCar ? this.props.items.filter((car) => car.id === this.props.selectedCar) : this.props.items;
+    
 
     return <div className="cars-gallery">
       {cars.map(car => (
