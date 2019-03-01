@@ -1,39 +1,28 @@
 import React, { Component } from 'react';
 import SelectForm from './SelectForm';
 import InputForm from './InputForm';
+import Select from './Select';
 import Cars from './Cars';
 
 import { cars } from "./Cars.json";
 
 class App extends Component {
-  state = { cars };
+  state = { cars: cars };
   render() {
+    console.log(this.state)
     return <div>
       <h1>Rent a Car with ReactJS</h1>
 
       <div style={{ margin: '16px', position: 'relative' }}>
-        <SelectForm
-          name="rent[auto_id]"
-          onChange={(item) => this.setState({ selectedCar: item.id })}
-          items={cars.map(car => ({ value: car.title, id: car.id }))}
-        />
-        <div style={{ left: '190px', position: 'relative' }}>
-          <SelectForm
-            name="rent[auto_color]"
-            onChange={(item) => this.setState({ selectedColorCar: item.id })}
-            items={cars.map(car => ({ value: car.color, id: car.id }))}
-          />
-        </div>
 
-        <div style={{ left: '380px', position: 'relative' }}>
-          <SelectForm
-            name="rent[auto_hp]"
-            onChange={(item) => this.setState({ selectedHpCar: item.id })}
-            items={cars.map(car => ({ value: car.hp, id: car.id }))}
+        <div>
+          <Select
+            onChange={(values) => { this.setState(values) }}
+            items={cars}
           />
         </div>
         <InputForm />
-        <Cars items={cars} selectedCar={this.state.selectedCar} selectedColorCar={this.state.selectedColorCar} selectedColorCar={this.state.selectedHpCar} />
+        <Cars items={cars} selectedCar={this.state.selectedCar} selectedColorCar={this.state.selectedColorCar} selectedHpCar={this.state.selectedHpCar} />
       </div>
     </div>
   }

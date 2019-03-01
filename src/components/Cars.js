@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 class Cars extends Component {
   render() {
-
     const cars = this.props.selectedCar
-      ? this.props.items.filter((car) => car.id === this.props.selectedCar && car.color === this.props.selectedColorCar && car.hp === this.props.selectedHpCar)
-
+      ? this.props.items.filter((car) => car.id === parseInt(this.props.selectedCar))
       : this.props.items;
+
+    console.log(this.props)
 
     return <div className="cars-gallery">
       {cars.map(car => (
