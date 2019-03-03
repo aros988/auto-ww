@@ -42,7 +42,6 @@ class Select extends Component {
     }
 
     render() {
-        console.log(this.props.items)
 
         return (
             <div>
@@ -65,7 +64,7 @@ class Select extends Component {
                                 value={this.state.color}
                                 onChange={this.handleColorChange}
                             >
-                                {this.props.items.map(item => <option value={item.id}>{item.color}</option>)}
+                                {this.props.items.map(item => <option value={item.color}>{item.color}</option>)}
                             </select>
                         </label>
                     </form>
@@ -77,7 +76,7 @@ class Select extends Component {
                                 value={this.state.hp}
                                 onChange={this.handleHpChange}
                             >
-                                {this.props.items.map(item => <option value={item.id}>{item.hp}</option>)}
+                                {this.props.items.map(item => <option value={item.hp}>{item.hp}</option>)}
                             </select>
                         </label>
                     </form>
