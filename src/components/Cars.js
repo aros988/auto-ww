@@ -18,7 +18,7 @@ class Cars extends Component {
       cars = cars.filter((car) => car.hp === (this.props.selectedHpCar))
     }
 
-    else { return (<div><h1>Search car for U...</h1></div>) };
+
 
     console.log(cars)
 
