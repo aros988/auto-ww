@@ -2,9 +2,20 @@ import React, { Component } from 'react';
 
 class Cars extends Component {
   render() {
-    const cars = this.props.selectedColorCar
-      ? this.props.items.filter((car) => car.color === (this.props.selectedColorCar))
-      : this.props.items;
+    let cars = this.props.items;
+    if (this.props.selectedColorCar) {
+      cars = cars.filter((car) => car.color === (this.props.selectedColorCar))
+    }
+
+    else if (this.props.selectedCar) {
+      cars = cars.filter((car) => car.id === parseInt(this.props.selectedCar))
+    }
+
+    else if (this.props.selectedHpCar) {
+      cars = cars.filter((car) => car.hp === parseInt(this.props.selectedHpCar))
+    }
+
+    else { '' };
 
 
     console.log(cars)
@@ -26,7 +37,7 @@ class Cars extends Component {
                 <li>Fuel type:{car.fuel_type}</li>
                 <li>Fuel consumption-urban mode:{car.fuel1}</li>
                 <li>Fuel consumption 90km/h:{car.fuel2}</li>
-                <li> Automatic air conditioning:{car.automatic_air_conditioning}</li>
+                <li>Automatic air conditioning:{car.automatic_air_conditioning}</li>
               </ul>
             </div>
           </div>

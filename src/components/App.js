@@ -8,6 +8,7 @@ import { cars } from "./Cars.json";
 class App extends Component {
   state = { cars: cars };
   render() {
+    console.log(this.state)
     return <div>
       <h1>Rent a Car with ReactJS</h1>
 
