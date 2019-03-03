@@ -12,10 +12,10 @@ class Cars extends Component {
     }
 
     else if (this.props.selectedHpCar) {
-      cars = cars.filter((car) => car.hp === parseInt(this.props.selectedHpCar))
+      cars = cars.filter((car) => car.hp === (this.props.selectedHpCar))
     }
 
-    else { '' };
+    else { this.props.items };
 
 
     console.log(cars)
