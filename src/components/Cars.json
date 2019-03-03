@@ -1,54 +1,64 @@
 {
-    "cars": [
-      {
-        "id": 1,
-        "title": "Mustang GT",
-        "type": "Sport",
-        "hp": "183",
-        "color": "Red",
-        "fuel_type": "PB95 or 98",
-        "fuel1": "12l/100km",
-        "fuel2": "10l/100km",
-        "automatic_air_conditioning": "include",
-        "image": "https://cdn.pixabay.com/photo/2017/05/23/20/09/mustang-2338394__340.jpg"
-      },
-      {
-        "id": 2,
-        "title": "BMW X3",
-        "type": "Suv",
-        "hp": "230",
-        "color": "Black",
-        "fuel_type": "Diesel",
-        "fuel1": "12l/100km",
-        "fuel2": "10l/100km",
-        "automatic_air_conditioning": "include",
-        "image": "https://cdn.pixabay.com/photo/2017/04/10/22/44/car-2220025__340.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Mercedes CLS",
-        "type": "Limo",
-        "hp": "200",
-        "color": "Black",
-        "fuel_type": "PB95 or 98",
-        "fuel1": "15l/100km",
-        "fuel2": "12l/100km",
-        "automatic_air_conditioning": "include",
-        "image": "https://cdn.pixabay.com/photo/2017/03/03/22/00/car-2115060__340.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Audi ARS6",
-        "type": "Sport",
-        "hp": "300",
-        "color": "Blue",
-        "fuel_type": "PB95 or 98",
-        "fuel1": "15l/100km",
-        "fuel2": "18l/100km",
-        "automatic_air_conditioning": "include",
-        "image": "https://cdn.pixabay.com/photo/2018/04/15/09/29/car-3321214__340.jpg"
-
-      }
-    ]
-  }
-  
+  "cars": [
+    {
+      "id": 1,
+      "title": "Mustang GT",
+      "type": "Sport",
+      "hp": "183",
+      "color": "Red",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "12l/100km",
+      "fuel2": "10l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://cdn.pixabay.com/photo/2017/05/23/20/09/mustang-2338394__340.jpg"
+    },
+    {
+      "id": 2,
+      "title": "BMW X3",
+      "type": "Suv",
+      "hp": "230",
+      "color": "Black",
+      "fuel_type": "Diesel",
+      "fuel1": "12l/100km",
+      "fuel2": "10l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://cdn.pixabay.com/photo/2017/04/10/22/44/car-2220025__340.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mercedes CLS",
+      "type": "Limo",
+      "hp": "200",
+      "color": "Black",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "15l/100km",
+      "fuel2": "12l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://cdn.pixabay.com/photo/2017/03/03/22/00/car-2115060__340.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Mustang GT",
+      "type": "Sport",
+      "hp": "210",
+      "color": "Graphite",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "12l/100km",
+      "fuel2": "10l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://cdn.pixabay.com/photo/2012/11/03/22/41/ford-64041__340.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Audi ARS6",
+      "type": "Sport",
+      "hp": "300",
+      "color": "Blue",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "15l/100km",
+      "fuel2": "18l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://cdn.pixabay.com/photo/2018/04/15/09/29/car-3321214__340.jpg"
+    }
+  ]
+}

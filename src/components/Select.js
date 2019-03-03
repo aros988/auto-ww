@@ -18,6 +18,8 @@ class Select extends Component {
 
     }
 
+
+
     handleCarChange = (e) => {
 
         this.setState({
@@ -41,8 +43,23 @@ class Select extends Component {
         this.props.onChange({ selectedHpCar: e.target.value })
     }
 
+
     render() {
 
+
+        let colors = Object.values(
+            this.props.items.reduce(
+                (acc, cur) => Object.assign(acc, { [cur.color]: cur }),
+                {}
+            )
+        );
+
+        let title = Object.values(
+            this.props.items.reduce(
+                (acc, cur) => Object.assign(acc, { [cur.title]: cur }),
+                {}
+            )
+        );
         return (
             <div>
                 <div>
@@ -52,7 +69,7 @@ class Select extends Component {
                                 value={this.state.car}
                                 onChange={this.handleCarChange}
                             >
-                                {this.props.items.map(item => <option value={item.id}>{item.title}</option>)}
+                                {title.map(item => <option value={item.id}>{item.title}</option>)}
                             </select>
                         </label>
                     </form>
@@ -64,7 +81,7 @@ class Select extends Component {
                                 value={this.state.color}
                                 onChange={this.handleColorChange}
                             >
-                                {this.props.items.map(item => <option value={item.color}>{item.color}</option>)}
+                                {colors.map(item => <option value={item.color}>{item.color}</option>)}
                             </select>
                         </label>
                     </form>

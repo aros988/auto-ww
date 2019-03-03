@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
 
+
 class Cars extends Component {
+
+
   render() {
     let cars = this.props.items;
     if (this.props.selectedColorCar) {
       cars = cars.filter((car) => car.color === (this.props.selectedColorCar))
     }
 
-    else if (this.props.selectedCar) {
+    if (this.props.selectedCar) {
       cars = cars.filter((car) => car.id === parseInt(this.props.selectedCar))
     }
 
-    else if (this.props.selectedHpCar) {
+    if (this.props.selectedHpCar) {
       cars = cars.filter((car) => car.hp === (this.props.selectedHpCar))
     }
 
-    else { this.props.items };
-
+    else { return (<div><h1>Search car for U...</h1></div>) };
 
     console.log(cars)
 
