@@ -40,6 +40,8 @@ class Cars extends Component {
                 <li>Fuel consumption-urban mode:{car.fuel1}</li>
                 <li>Fuel consumption 90km/h:{car.fuel2}</li>
                 <li>Automatic air conditioning:{car.automatic_air_conditioning}</li>
+                <li>Seats:{car.seats}</li>
+                <li>Trunk space:{car.space}</li>
               </ul>
             </div>
           </div>

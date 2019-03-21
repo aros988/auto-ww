@@ -10,6 +10,8 @@
       "fuel1": "12l/100km",
       "fuel2": "10l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "4",
+      "space": "40 cu ft",
       "image": "https://cdn.pixabay.com/photo/2017/05/23/20/09/mustang-2338394__340.jpg"
     },
     {
@@ -22,6 +24,8 @@
       "fuel1": "12l/100km",
       "fuel2": "10l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "5",
+      "space": "50 cu ft",
       "image": "https://cdn.pixabay.com/photo/2017/04/10/22/44/car-2220025__340.jpg"
     },
     {
@@ -34,6 +38,8 @@
       "fuel1": "15l/100km",
       "fuel2": "12l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "5",
+      "space": "28 cu ft",
       "image": "https://cdn.pixabay.com/photo/2017/03/03/22/00/car-2115060__340.jpg"
     },
     {
@@ -46,6 +52,8 @@
       "fuel1": "12l/100km",
       "fuel2": "10l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "4",
+      "space": "25 cu ft",
       "image": "https://cdn.pixabay.com/photo/2012/11/03/22/41/ford-64041__340.jpg"
     },
     {
@@ -58,30 +66,36 @@
       "fuel1": "15l/100km",
       "fuel2": "18l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "5",
+      "space": "40 cu ft",
       "image": "https://cdn.pixabay.com/photo/2018/04/15/09/29/car-3321214__340.jpg"
     },
     {
       "id": 6,
       "title": "Renault trafic",
-      "type": " VAN / Bus",
+      "type": "VAN / Bus",
       "hp": "195",
       "color": "Black",
       "fuel_type": "Diesel",
       "fuel1": "10l/100km",
       "fuel2": "12l/100km",
       "automatic_air_conditioning": "not include",
+      "seats": "3",
+      "space": "150 cu ft",
       "image": "https://www.parkers.co.uk/Images/Cache/PageFiles/262077/510x340/001_Trafic_Formula.jpg"
     },
     {
       "id": 7,
       "title": "VW T6",
-      "type": " VAN / Bus",
+      "type": "VAN / Bus",
       "hp": "203",
       "color": "Black",
       "fuel_type": "Diesel",
       "fuel1": "9l/100km",
       "fuel2": "13l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "2",
+      "space": "130 cu ft",
       "image": "https://www.parkers.co.uk/Images/Cache/PageFiles/75738/510x340/VW_Caravelle_BizEd_020913(11).jpg"
     },
     {
@@ -94,6 +108,8 @@
       "fuel1": "---",
       "fuel2": "---",
       "automatic_air_conditioning": "include",
+      "seats": "5",
+      "space": "40 cu ft",
       "image": "https://www.parkers.co.uk/Images/Cache/PageFiles/155922/510x340/_29R4440_.jpg"
     },
     {
@@ -106,6 +122,8 @@
       "fuel1": "10l/100km",
       "fuel2": "12l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "5",
+      "space": "65 cu ft",
       "image": "https://imazda.ru/wp-content/uploads/2018/01/mazda-6-sport-1-510x340.jpg"
     },
     {
@@ -118,6 +136,8 @@
       "fuel1": "8l/100km",
       "fuel2": "5l/100km",
       "automatic_air_conditioning": "include",
+      "seats": "4",
+      "space": "25 cu ft",
       "image": "http://wheelworldreviews.co.uk/wp-content/uploads/2012/10/Hyundai-ix20-wwr-510x340.jpg"
     }
   ]
