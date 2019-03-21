@@ -59,6 +59,66 @@
       "fuel2": "18l/100km",
       "automatic_air_conditioning": "include",
       "image": "https://cdn.pixabay.com/photo/2018/04/15/09/29/car-3321214__340.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Renault trafic",
+      "type": " VAN / Bus",
+      "hp": "195",
+      "color": "Black",
+      "fuel_type": "Diesel",
+      "fuel1": "10l/100km",
+      "fuel2": "12l/100km",
+      "automatic_air_conditioning": "not include",
+      "image": "https://www.parkers.co.uk/Images/Cache/PageFiles/262077/510x340/001_Trafic_Formula.jpg"
+    },
+    {
+      "id": 7,
+      "title": "VW T6",
+      "type": " VAN / Bus",
+      "hp": "203",
+      "color": "Black",
+      "fuel_type": "Diesel",
+      "fuel1": "9l/100km",
+      "fuel2": "13l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://www.parkers.co.uk/Images/Cache/PageFiles/75738/510x340/VW_Caravelle_BizEd_020913(11).jpg"
+    },
+    {
+      "id": 8,
+      "title": "AUDI A3 S-LINE",
+      "type": " Hatchback",
+      "hp": "223",
+      "color": "Red",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "---",
+      "fuel2": "---",
+      "automatic_air_conditioning": "include",
+      "image": "https://www.parkers.co.uk/Images/Cache/PageFiles/155922/510x340/_29R4440_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Mazda 6",
+      "type": " Sedan",
+      "hp": "200",
+      "color": "Black",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "10l/100km",
+      "fuel2": "12l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "https://imazda.ru/wp-content/uploads/2018/01/mazda-6-sport-1-510x340.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Hyundai ix20",
+      "type": " mini",
+      "hp": "120",
+      "color": "Red",
+      "fuel_type": "PB95 or 98",
+      "fuel1": "8l/100km",
+      "fuel2": "5l/100km",
+      "automatic_air_conditioning": "include",
+      "image": "http://wheelworldreviews.co.uk/wp-content/uploads/2012/10/Hyundai-ix20-wwr-510x340.jpg"
     }
   ]
 }

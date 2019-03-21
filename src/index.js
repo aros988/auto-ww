@@ -14,7 +14,7 @@ const routing = (
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/carlist">Car Details</Link>
+                        <Link to="/carlist">Rental Card</Link>
                     </li>
                 </ul>
             </div>

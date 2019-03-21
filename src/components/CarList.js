@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-
+import InputForm from './InputForm';
 
 class CarList extends Component {
     render() {
         return (
-            <div> <h1>Car List Details</h1></div>
+            <div style={{ margin: '16px', position: 'relative' }}>
+                <InputForm />
+            </div>
 
         );
     }

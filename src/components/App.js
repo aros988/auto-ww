@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InputForm from './InputForm';
 import Select from './Select';
 import Cars from './Cars';
 
@@ -20,7 +19,6 @@ class App extends Component {
             items={cars}
           />
         </div>
-        <InputForm />
         <Cars items={cars} selectedCar={this.state.selectedCar} selectedColorCar={this.state.selectedColorCar} selectedHpCar={this.state.selectedHpCar} />
       </div>
     </div>
