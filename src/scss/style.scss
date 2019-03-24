@@ -107,6 +107,9 @@ body {
   -webkit-flex-flow: row wrap;
 }
 
+
+
+/* Cars */
 .cars {
   margin: 10px 0;
   
@@ -124,4 +127,14 @@ body {
   list-style-type: none;
   text-align: left;
   font-weight: bold;
+}
+
+.rent-btn {
+  height:20px; 
+  width:100px; 
+  margin: 50px -50px; 
+  position:relative;
+  top:50%; 
+  left:50%;
+
 }

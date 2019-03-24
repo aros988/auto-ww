@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 class Cars extends Component {
 
@@ -33,15 +33,16 @@ class Cars extends Component {
             />
             <div className="card-body">
               <ul>
-                <li>Type:{car.type}</li>
-                <li>HP:{car.hp}</li>
-                <li>Color:{car.color}</li>
-                <li>Fuel type:{car.fuel_type}</li>
-                <li>Fuel consumption-urban mode:{car.fuel1}</li>
-                <li>Fuel consumption 90km/h:{car.fuel2}</li>
-                <li>Automatic air conditioning:{car.automatic_air_conditioning}</li>
-                <li>Seats:{car.seats}</li>
-                <li>Trunk space:{car.space}</li>
+                <li>Type: {car.type}</li>
+                <li>HP: {car.hp}</li>
+                <li>Color: {car.color}</li>
+                <li>Fuel type: {car.fuel_type}</li>
+                <li>Fuel consumption-urban mode: {car.fuel1}</li>
+                <li>Fuel consumption 90km/h: {car.fuel2}</li>
+                <li>Automatic air conditioning: {car.automatic_air_conditioning}</li>
+                <li>Seats: {car.seats}</li>
+                <li>Trunk space: {car.space}</li>
+                <Link to="/carlist"><button className="rent-btn"> Rent a Car !</button></Link>
               </ul>
             </div>
           </div>
