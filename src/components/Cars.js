@@ -2,7 +2,23 @@ import React, { Component } from 'react';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 class Cars extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      car: ('')
+    };
 
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState({
+      car: e.target.value
+
+    });
+    this.props.onClick({ selectedCar: e.target.value })
+  }
 
   render() {
     let cars = this.props.items;
@@ -42,7 +58,12 @@ class Cars extends Component {
                 <li>Automatic air conditioning: {car.automatic_air_conditioning}</li>
                 <li>Seats: {car.seats}</li>
                 <li>Trunk space: {car.space}</li>
-                <Link to="/carlist"><button className="rent-btn"> Rent a Car !</button></Link>
+                <Link to="/carlist">
+                  <button
+                    className="rent-btn"
+                    onClick={this.handleClick}
+                  > Rent a Car !</button>
+                </Link>
               </ul>
             </div>
           </div>
